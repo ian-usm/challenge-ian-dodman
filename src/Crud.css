@@ -1,0 +1,183 @@
+/* Crud.css */
+
+.crud-container {
+  margin-top: 50px;
+}
+
+.form-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #dee2e6;
+  padding: 8px;
+  text-align: center;
+}
+
+.employee-table th {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.employee-table button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.employee-table button:hover {
+  background-color: #0056b3;
+}
+
+.agregar-button {
+  border: 0;
+  background-image: linear-gradient(
+      90deg,
+      #00ff88,
+      #00ffff
+  );
+  
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  padding: 3px;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.agregar-button span {
+  background-color: rgba(17, 17, 17, 0.8);
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: .3s;
+  font-weight: 200;
+}
+
+.agregar-button:hover span {
+  background: none;
+}
+
+.agregar-button:active {
+  transform: scale(0.9);
+}
+
+.eliminar-button {
+  
+  margin: 0 auto;
+  border-color: #343a40;
+  
+  background-image: linear-gradient(
+    90deg,
+    #ff0000,
+    #ff7b00
+  );
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 300ms;
+  
+  
+}
+.editar-button {
+  margin: 0 auto;
+  border-color: #343a40;
+  background-image: linear-gradient(
+    90deg,
+    #00a2ff,
+    #00eeff
+  );
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.cerrar-button {
+  border: 0;
+  background-image: linear-gradient(
+      90deg,
+      #ff0000,
+      #ff3300
+  );
+  
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  padding: 3px;
+  cursor: pointer;
+  transition: 300ms;
+  justify-content: center; 
+  align-items: center; 
+  width: fit-content; 
+  margin: 0 auto;
+  padding: 8px 8px;
+}
+
+.guardar-button {
+  border: 0;
+  background-image: linear-gradient(
+      90deg,
+      #00ff2ab2,
+      #00ff3783
+  );
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  padding: 3px;
+  cursor: pointer;
+  transition: 300ms;
+  justify-content: center; 
+  align-items: center; 
+  width: fit-content; 
+  margin: 0 auto; 
+  padding: 8px 8px;
+  margin-right: 5px;
+}
+
+.cancelar-button {
+  border: 0;
+  background-image: linear-gradient(
+      90deg,
+      #ff0000,
+      #ff3300
+  );
+  
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  padding: 3px;
+  cursor: pointer;
+  transition: 300ms;
+  justify-content: center; 
+  align-items: center; 
+  width: fit-content;
+  margin: 0 auto; 
+  padding: 8px 8px;
+}
